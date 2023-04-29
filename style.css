@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@400;700&display=swap');
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100%;
+    width: 100%:
+}
+
+main section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main section nav {
+    width: 100%;
+    height: fit-content;
+    padding: 25px 0 25px;
+    background: royalblue;
+    color: white;
+}
+
+main section nav ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+main section nav ul .logo-wrapper {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-left: 25px;
+}
+
+main section nav ul .logo-wrapper span {
+    color: white;
+    font-size: 24px;
+    margin-right: 7.5px;
+}
+
+main section nav ul .logo-wrapper h1 {
+    font-family: 'Pathway Extreme', sans-serif;
+    font-size: 24px;
+    margin-right: 65vw;
+}
+
+main section nav ul a {
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+    font-family: 'Pathway Extreme', sans-serif;
+    padding: 5px 15px 5px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+main section nav ul a:hover {
+    cursor: pointer;
+    background-color: #3354b7;
+}
+
+main section #hero {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: royalblue;
+    color: white;
+}
+
+main section #hero .content {
+    position: fixed;
+    z-index: 5;
+    text-align: center;
+}
+
+main section #hero .content h1 {
+    font-family: 'Pathway Extreme', sans-serif;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+main section #hero .content p {
+    font-family: 'Pathway Extreme', sans-serif;
+    font-size: 24px;
+    margin-bottom: 25px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+main section #hero .content button {
+    font-family: 'Pathway Extreme', sans-serif;
+    padding: 10px 50px 10px;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+main section #hero .content button:hover {
+    box-shadow: 100px 100px 100px rgba(0, 0, 0, 1);
+    transform: rotate3d(1, 0, 0, 30deg);
+}
+
+main section #hero .animation {
+    position: fixed;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes eqAnim {
+
+    from {
+        height: 1vh;
+    }
+
+    50% {
+        height: 70vh;
+    }
+
+    to {
+        height: 1vh;
+    }
+    
+}
+
+main section #hero .animation .eq-bar-1 {
+    color: #3354b7;
+    background: #3354b7;
+    height: 1vh;
+    width: 37.5px;
+    margin-left: 25px;
+    display: flex;
+    border-radius: 50px;
+    animation: eqAnim 5s infinite;
+}
+
+main section #hero .animation .eq-bar-2 {
+    color: #3354b7;
+    background: #3354b7;
+    height: 1vh;
+    width: 37.5px;
+    margin-left: 25px;
+    display: flex;
+    border-radius: 50px;
+    animation: eqAnim 5s infinite;
+    animation-delay: 0.375s 
+}
+
+main section #hero .animation .eq-bar-3 {
+    color: #3354b7;
+    background: #3354b7;
+    height: 1vh;
+    width: 37.5px;
+    margin-left: 25px;
+    display: flex;
+    border-radius: 50px;
+    animation: eqAnim 5s infinite;
+    animation-delay: .75s 
+}
+
+main section #hero .animation .eq-bar-4 {
+    color: #3354b7;
+    background: #3354b7;
+    height: 1vh;
+    width: 37.5px;
+    margin-left: 25px;
+    display: flex;
+    border-radius: 50px;
+    animation: eqAnim 5s infinite;
+    animation-delay: 1.125s 
+}
+
+main section #hero .animation .eq-bar-5 {
+    color: #3354b7;
+    background: #3354b7;
+    height: 1vh;
+    width: 37.5px;
+    margin-left: 25px;
+    display: flex;
+    border-radius: 50px;
+    animation: eqAnim 5s infinite;
+    animation-delay: 1.5s 
+}
+
+main section #hero .animation .eq-bar-6 {
+    color: #3354b7;
+    background: #3354b7;
+    height: 1vh;
+    width: 37.5px;
+    margin-left: 25px;
+    display: flex;
+    border-radius: 50px;
+    animation: eqAnim 5s infinite;
+    animation-delay: 1.825s 
+}
+
+main section #hero .animation .eq-bar-7 {
+    color: #3354b7;
+    background: #3354b7;
+    height: 1vh;
+    width: 37.5px;
+    margin-left: 25px;
+    display: flex;
+    border-radius: 50px;
+    animation: eqAnim 5s infinite;
+    animation-delay: 2.2s 
+}
+
+@media (max-width: 1440px) {
+
+    main section nav ul .logo-wrapper h1 {
+        margin-right: 
+    }
+    
+}
+
+@media (max-width: 1920px) {
+
+    main section nav ul .logo-wrapper h1 {
+        font-family: 'Pathway Extreme', sans-serif;
+        font-size: 24px;
+        margin-right: 72.5vw;
+    }    
+    
+}

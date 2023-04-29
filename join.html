@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="join.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Join | Spatial</title>
+</head>
+<body>
+
+    <main>
+        <div class="wrapper">
+            <div class="left">
+                <h1>Listen to your music.<span class="bold"> Your way.</span></h1>
+                <p>Just music, no distractions, completely open-source.</p>
+                <div class="legal">
+                    <div class="privacy-wrapper">
+                        <span class="material-symbols-outlined">lock</span>
+                        <p>Privacy policy</p>
+                    </div>
+                    <div class="terms-wrapper">
+                        <span class="material-symbols-outlined">gavel</span>
+                        <p>Terms of service</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <form action="https://spatial.veenitxs.repl.co/join" method="POST">
+                    <h1>Hey, hello</h1>
+                    <p>Enter the information below to join the platform.</p>
+                    <label for="username">Username</label>
+                    <input type="text" name="username" placeholder="Username">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Email">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" placeholder="Password">
+                    <div class="settings">
+                        <div class="remember-wrapper">
+                            <input type="checkbox" id="remember-me-box">
+                            <p>Remember me</p>
+                        </div>
+                        <div class="forgot-wrapper">
+                            <a href="/login">Login</a>
+                        </div>
+                    </div>
+                    <button type="submit">Sign up</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="join.js"></script>
+    
+</body>
+</html>

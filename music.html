@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="music.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Music | Spatial</title>
+</head>
+<body>
+
+    <main>
+        <div class="top">
+            <h1 id="welcome-text">Welcome back!</h1>
+            <p>New music awaits you today!</p>
+            <div class="search-container">
+                <input id="searchbar" type="search" name="song-search" placeholder="What Music Should We Listen To Today?">
+                <button id="search-btn" class="material-symbols-outlined">search</button>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="currently-playing">
+                <div id="player" class="player-blinding-lights">
+                    <img id="cover-art" src="public/images/blinding-lights.png">
+                    <p id="artist">The Weekend</p>
+                    <h1 id="song-name">Blinding Lights</h1>
+                    <audio controls id="blinding-lights">
+                        <source src="public/music/blinding-lights.mp3">
+                    </audio>
+                </div>
+                <div id="player" class="player-shape-of-you">
+                    <img id="cover-art" src="public/images/shape-of-you.png">
+                    <p id="artist">Ed Sheeran</p>
+                    <h1 id="song-name">Shape Of You</h1>
+                    <audio controls id="shape-of-you">
+                        <source src="public/music/shape-of-you.mp3">
+                    </audio>
+                </div>
+                <div id="player" class="player-dance-monkey">
+                    <img id="cover-art" src="public/images/dance-monkey.jpeg">
+                    <p id="artist">Tones And I</p>
+                    <h1 id="song-name">Dance Monkey</h1>
+                    <audio controls id="dance-monkey">
+                        <source src="public/music/dance-monkey.mp3">
+                    </audio>
+                </div>
+                <div id="player" class="player-someone-you-loved">
+                    <img id="cover-art" src="public/images/someone-you-loved.png">
+                    <p id="artist">Lewis Capaldi</p>
+                    <h1 id="song-name">Someone You Loved</h1>
+                    <audio controls id="someone-you-loved">
+                        <source src="public/music/someone-you-loved.mp3">
+                    </audio>
+                </div>
+                <div id="player" class="player-rockstar">
+                    <img id="cover-art" src="public/images/rockstar.jpeg">
+                    <p id="artist">Post Malone & 21 Savage</p>
+                    <h1 id="song-name">Rockstar</h1>
+                    <audio controls id="rockstar">
+                        <source src="public/music/rockstar.mp3">
+                    </audio>
+                </div>
+                <div id="player" class="player-repeat-it">
+                    <img id="cover-art" src="public/images/repeat-it.png">
+                    <p id="artist">Lil Tecca</p>
+                    <h1 id="song-name">Repeat It</h1>
+                    <audio controls id="repeat-it">
+                        <source src="public/music/repeat-it.mp3">
+                    </audio>
+                </div>
+                <div id="player" class="player-pop-out">
+                    <img id="cover-art" src="public/images/pop-out.png">
+                    <p id="artist">Polo G</p>
+                    <h1 id="song-name">Pop Out</h1>
+                    <audio controls id="pop-out">
+                        <source src="public/music/pop-out.mp3">
+                    </audio>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <nav>
+                <ul>
+                    <a href="/music" class="material-symbols-outlined">home</a>
+                    <a href="#" class="material-symbols-outlined">search</a>
+                    <a href="/account" class="material-symbols-outlined">person</a>
+                </ul>
+            </nav>
+        </div>
+    </main>
+
+    <script src="music.js"></script>
+    
+</body>
+</html>
